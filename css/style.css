@@ -1,0 +1,417 @@
+a {
+    cursor: url(../images/cursormario.cur), pointer;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    padding: 40px 15px;
+    max-width: 1780px;
+    margin: 0 auto;
+
+}
+
+
+.header-wrap {
+    background-color: #cb4f0f;
+}
+
+.header {
+    align-items: center;
+}
+
+.text {
+    font-size: 54px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Press Start 2P";
+    margin-left: 30px;
+}
+
+.text1 {
+    font-size: 30px;
+}
+
+.text2 {
+    font-size: 43px;
+}
+
+.textM {
+    margin: 6.5px 0;
+}
+
+.flex {
+    /* flex-wrap: wrap;  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header a {
+    margin-left: 80px;
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    font-family: "Roboto";
+    display: inline-block;
+    transition: 1s;
+}
+
+.header a:hover {
+    transform: scale(1.2);
+}
+
+/* .background {
+    min-height: 85vh;
+    background-color: #5e91fe;
+} */
+
+.gamewatch {
+    text-align: center;
+    min-height: 65vh;
+    background-color: #5e91fe;
+    padding-top: 20vh;
+}
+
+.gamewatch h1 {
+    font-size: 54px;
+    color: #000000;
+    font-family: "Press Start 2P";
+    margin-bottom: 80px;
+}
+
+.gamewatch p {
+    font-size: 50px;
+    color: #000000;
+    font-family: "Roboto";
+}
+
+.gamewatch .flex {
+    align-items: center;
+}
+
+.block {
+    width: 100%;
+    height: 242px;
+    background-image: url(../images/Block.png);
+}
+
+.button {
+    text-align: center;
+    color: #000;
+    width: 344px;
+    background-color: #cb4f0f;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 31.5px 15px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: "Press Start 2P";
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.button:hover {
+    background-color: #7f320b;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Press Start 2P";
+    font-size: 50px;
+    color: #000000;
+    font-weight: 400;
+    margin-top: 180px;
+    margin-bottom: 120px;
+}
+
+.consoles li {
+    margin-top: 50px;
+    font-size: 50px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Roboto";
+
+}
+
+.consoles p {
+    opacity: 0.902;
+    font-size: 72px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Press Start 2P";
+    margin: 80px 0;
+}
+
+.consoles .flex {
+    /* height: 1000px; */
+    column-gap: 20px;
+}
+
+.consoles img {
+    padding-top: 90px;
+}
+
+.console {
+    max-width: 1520px;
+}
+
+.consoles1 {
+    margin-bottom: 300px;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+.games {
+    background-image: url(../images/games.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.games h2 {
+    font-size: 100px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Press Start 2P";
+    text-align: center;
+}
+
+.games .flex {
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.blue {
+    background-color: #0000ff;
+    padding-bottom: 50px;
+    padding-top: 200px;
+}
+
+.blue>* {
+    margin-left: 40px;
+}
+
+.blue h2 {
+    margin-top: 40px;
+    margin-bottom: 0;
+    text-align: left;
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Press Start 2P";
+}
+
+.yellow {
+    /* text-align: right; */
+    position: relative;
+    background-color: #fff600;
+    height: 360px;
+}
+
+.yellow img {
+    position: absolute;
+    bottom: 0;
+    right: 25px;
+}
+
+.abc picture {
+    display: block;
+}
+
+.abc {
+    margin-left: 200px;
+}
+
+.prize {
+    padding: 90px 0;
+}
+
+.prize .flex {
+    justify-content: flex-start;
+}
+
+.def {
+    flex-direction: column-reverse;
+    margin-left: 200px;
+}
+
+.def h3 {
+    font-size: 50px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Press Start 2P";
+}
+
+.def p {
+    font-size: 40px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Roboto";
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.def strong {
+    font-size: 100px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Press Start 2P";
+}
+
+.def img {
+    margin-right: 45px;
+    margin-left: -15px;
+}
+
+.button1 {
+    text-align: center;
+    color: #fff;
+    max-width: 570px;
+    /* width: 570px; */
+    background-color: #000;
+    box-sizing: border-box;
+    display: block;
+    padding: 45px 45px;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-family: "Press Start 2P";
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.button1:hover {
+    background-color: #434343;
+}
+
+.Block {
+    width: 100%;
+    height: 121px;
+    background-image: url(../images/Block.png);
+}
+
+.questions {
+    background-color: #000;
+}
+
+.questions h2 {
+    font-size: 83px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Press Start 2P";
+    text-align: center;
+    margin-top: 125px;
+}
+
+.review {
+    width: 60%;
+    margin-bottom: 170px;
+}
+
+
+.text5 textarea {
+    max-width: 1019px;
+    width: calc(100% - 60px);
+    font-size: 40px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Roboto";
+    display: inline-block;
+    height: 300px;
+    background-color: #fff;
+    resize: none;
+    padding: 30px;
+    margin-bottom: 60px;
+}
+
+
+.text5 textarea::placeholder {
+    color: #000;
+}
+
+
+.text3 input {
+    box-sizing: border-box;
+    max-width: 1067px;
+    /* width: calc(100% - 60px); */
+    width: 100%;
+    font-size: 40px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Roboto";
+    display: inline-block;
+    background-color: #fff;
+    resize: none;
+    padding: 30px;
+    margin-bottom: 60px;
+}
+
+.text3 input::placeholder {
+    color: #000;
+}
+
+.questions a {
+    font-size: 48px;
+    width: 567px;
+    padding: 47px;
+}
+
+.gameslist {
+    background-color: #cb4f0f;
+    padding-bottom: 60px;
+}
+
+.gameslist h2 {
+    margin: 60px;
+}
+
+.gameslist ul{
+    margin-right: 90px;
+}
+
+.gameslist li {
+    font-size: 40px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.gameslist .flex {
+    align-items: start;
+}
+
+.gameslist a {
+    font-size: 27px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Press Start 2P";
+    text-decoration: none;
+    transition: 0.5s;
+    /* position: absolute; */
+    /* right: 20px; */
+}
+
+.gameslist p {
+    text-align: right;
+    padding-right: 60px;
+    margin: 0;
+}
+
+.gameslist a:hover{
+    font-size: 30px; 
+}
+
+.gameslist .wrapper{
+    /* position: relative; */
+    max-width: 1740px;
+    
+}
