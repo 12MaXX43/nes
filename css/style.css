@@ -69,10 +69,6 @@ ul {
     transform: scale(1.2);
 }
 
-/* .background {
-    min-height: 85vh;
-    background-color: #5e91fe;
-} */
 
 .gamewatch {
     text-align: center;
@@ -374,8 +370,8 @@ img {
     margin: 60px;
 }
 
-.gameslist ul{
-    margin-right: 90px;
+.gameslist ul {
+    margin-right: 50px;
 }
 
 .gameslist li {
@@ -396,8 +392,7 @@ img {
     font-family: "Press Start 2P";
     text-decoration: none;
     transition: 0.5s;
-    /* position: absolute; */
-    /* right: 20px; */
+    display: inline-block;
 }
 
 .gameslist p {
@@ -406,12 +401,40 @@ img {
     margin: 0;
 }
 
-.gameslist a:hover{
-    font-size: 30px; 
+.gameslist a:hover {
+    /* font-size: 28px; */
+    transform: scale(1.2);
+    
 }
 
-.gameslist .wrapper{
-    /* position: relative; */
+.gameslist .wrapper {
     max-width: 1740px;
-    
+
+}
+
+.footer {
+    background-color: #000;
+}
+
+.footer .wrapper{
+    padding: 25px 0;
+}
+
+.footer p,
+.footer a{
+    margin: 0;
+    color: #fff;
+    font-size: 27px;
+    font-weight: 400;
+    font-family: "Press Start 2P";
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.footer a{
+    display: inline-block;
+}
+
+.footer a:hover{
+    transform: scale(1.2);
 }
